@@ -32,6 +32,7 @@ jobs:
         with:
           path-to-document: 'https://github.com/luneutic/cla/blob/main/CLA.md'
           custom-pr-sign-comment: 'I have read the CLA Document and I hereby accept the terms' # IMPORTANT: Must be the same as above
+          lock-pullrequest-aftermerge: true
 
           # Where to store signatures
           remote-organization-name: luneutic
