@@ -1,3 +1,12 @@
 {
-   "signedContributors": []
+  "signedContributors": [
+    {
+      "name": "luneutic",
+      "id": 210336847,
+      "comment_id": 2851151778,
+      "created_at": "2025-05-05T14:14:50Z",
+      "repoId": 978114779,
+      "pullRequestNo": 1
+    }
+  ]
 }
