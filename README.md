@@ -29,3 +29,15 @@ To enable the CLA check for `myrepo`, follow these steps:
       secrets:
         CLA_REPO_TOKEN: ${{ secrets.CLA_REPO_TOKEN }}
   ```
+
+
+## Acknowledgements
+The CLA was adapted from [Signal Messenger][signal-cla] and [intuitem][intuitem-cla].
+
+The GitHub Action workflow primarily uses the [CLA Assistant GitHub Action][cla-gh-action].
+
+
+<!-- links -->
+[signal-cla]: https://signal.org/cla/
+[intuitem-cla]: https://github.com/intuitem/ciso-assistant-community/blob/main/Contributor%20License%20Agreement.md
+[cla-gh-action]: https://github.com/contributor-assistant/github-action
