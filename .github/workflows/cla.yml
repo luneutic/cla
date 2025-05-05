@@ -3,6 +3,9 @@ name: CLA Assistant
 
 on:
   workflow_call:
+    secrets:
+      CLA_REPO_TOKEN:
+        required: true
   issue_comment:
     types: [created]
   pull_request:
